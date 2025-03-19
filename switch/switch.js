@@ -1,13 +1,15 @@
 const reasultado = prompt("ERscolha uma alternativa: \na)\nb)\nc)")
 
-switch (reasultado) {
-    case "a":
+const reasultadoNumerico = parseFloat(reasultado)
+
+switch (reasultadoNumerico) {
+    case 1:
         alert("O reasultado é 'a'")
         break
-    case "b":
+    case 2:
         alert("O reasultado é 'b'")
         break
-    case "c":
+    case 3:
         alert("O reasultado é 'c'")
         break
     default:
