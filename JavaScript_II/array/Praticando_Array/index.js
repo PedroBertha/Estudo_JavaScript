@@ -48,3 +48,10 @@ console.log(sociedade)
 const elementosRemovidos = sociedade.splice(indice, 1, "Gandalf, o Cinzeto")
 console.log(sociedade)
 console.log(elementosRemovidos)
+
+// Interar Elementos
+// Usando o for para percorrer cada elemento do array
+for (let indice = 0; indice < sociedade.length; indice++) {
+    const elemento = sociedade[indice]
+    console.log(elemento + " se encontra na posição: " + indice)
+}
