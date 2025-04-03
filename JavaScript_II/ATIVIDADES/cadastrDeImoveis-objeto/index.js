@@ -1,5 +1,4 @@
-const imoveis = []
-let opcao = " "
+ pcao = " "
 
 do {
     opcao = prompt(
