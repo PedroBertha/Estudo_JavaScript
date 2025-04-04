@@ -1,4 +1,5 @@
- pcao = " "
+const imoveis = []
+let opcao = " "
 
 do {
     opcao = prompt(
