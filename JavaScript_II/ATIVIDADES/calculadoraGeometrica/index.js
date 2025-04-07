@@ -28,7 +28,7 @@ function calcularAreaTriangulo() {
 
 function calcularAreaRetangulo() {
     const base = parseFloat(prompt("Informe a base do retângulo: "))
-    const altura = parseFloat(prompt("Informe a altura do retângulo: "))
+    const altura = parseFloat(promp("Informe a altura do retângulo: "))
     return base * altura
 }
 

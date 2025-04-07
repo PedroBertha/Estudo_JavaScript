@@ -37,6 +37,9 @@ do {
                     "\nBanheiros: " + imoveis[i].banheiros +
                     "\nPossui garagem? " + imoveis[i].garagem
                 )
+
+
+                
             }
             break
         case "3":
