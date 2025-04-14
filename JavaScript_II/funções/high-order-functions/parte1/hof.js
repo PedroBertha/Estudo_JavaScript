@@ -62,3 +62,12 @@ const racas = personagens.reduce(function (valorAcumulado, personagem){
 }, {})
 
 console.log(racas)
+
+// Sort: permite ordenar os elementos de um array com base em uma função de comparação
+// 1, 2, 4, 7, 3 \ compara de 2 em 2
+const personagemoOrdenados = personagens.slice().sort(function (a, b){
+    return a.nivel - b.nivel
+})
+
+console.log(personagens)
+console.log(personagemoOrdenados)   
