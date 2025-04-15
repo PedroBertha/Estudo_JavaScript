@@ -98,7 +98,7 @@ function calcularArea() {
         
     } while (opcao !== "6");
 }
- calcularArea()
+calcularArea()
 
 
 
