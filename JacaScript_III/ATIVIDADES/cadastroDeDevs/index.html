@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADE 2 - CADASTRO DE DEVS</title>
+
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>ATIVIDADE - Cadastro de Devs</h1>
+    <hr>
+    
+    <h2>Cadastro de Devs</h2> <!--titulo do form -->
+    <form id="devForm"> <!-- formulário -->
+
+        <!-- input para o nome completo -->
+        <label for="fullname">Nome Completo:</label> 
+        <input type="text" name="fullname" id="fullname"><br><br> 
+        
+        <!-- criar novos campos no formulário -->
+        <label>Tecnologias:</label><br>
+        <button id="addTechBtn" type="button">Adicionar Tecnologia</button> <!-- botão para adicionar tecnologia -->
+        <ul id="stackInputs"></ul> <!-- inserir as tecnologias aqui -->
+        <br>
+        <button type="submit">Cadastrar</button> <!-- botão para cadastrar o dev -->    
+    </form>
+</body>
+</html>
